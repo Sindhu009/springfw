@@ -24,11 +24,11 @@
 
 </bean>
  -->
-<bean class="com.xworkz.ball.Ball" id="ball">
+<!-- <bean class="com.xworkz.ball.Ball" id="ball">
 <constructor-arg name="type" value="spong" />
 <constructor-arg name="weight" value="1.00"/>
 
-</bean>
+</bean> -->
 
 <!-- <bean class="com.xworkz.ball.Ball" id="ball">
 <constructor-arg name="weight" value="4.00" />
@@ -46,6 +46,15 @@
 
 </bean>
  -->
-
-
+ 
+ <bean class="com.xworkz.countrylist.ArrayListConfig" id="countrylist">
+  <property name="countryList">
+                  <list>
+                        <value>India</value>
+                        <value>US</value>
+                        <value>UK</value>
+                        <value>Japan</value>                     
+                  </list>
+            </property>
+      </bean>
 </beans> 
